@@ -1,6 +1,8 @@
 # OpenBypass
 An MDM bypass & iOS OTA disabler/eraser application written in C#.
 
+### Device activation is coming soon, no ETA is currently planned at the moment.
+
 ## If you are sharing this on a blog or what not, please direct users to this repository instead of a file-sharing service, it helps raise awareness for this project.
 
 # License
