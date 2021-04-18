@@ -37,6 +37,7 @@ namespace OpenBypass
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.aboutButton = new FontAwesome.Sharp.IconButton();
             this.mainPanel.SuspendLayout();
             this.panelDesktop.SuspendLayout();
             this.SuspendLayout();
@@ -90,6 +91,7 @@ namespace OpenBypass
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.mainPanel.Controls.Add(this.aboutButton);
             this.mainPanel.Controls.Add(this.label1);
             this.mainPanel.Controls.Add(this.iconButton4);
             this.mainPanel.Controls.Add(this.iconButton1);
@@ -141,6 +143,29 @@ namespace OpenBypass
             this.label3.TabIndex = 0;
             this.label3.Text = "Select an option to get started";
             // 
+            // aboutButton
+            // 
+            this.aboutButton.BackColor = System.Drawing.Color.Transparent;
+            this.aboutButton.FlatAppearance.BorderSize = 0;
+            this.aboutButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.aboutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.aboutButton.ForeColor = System.Drawing.Color.White;
+            this.aboutButton.IconChar = FontAwesome.Sharp.IconChar.InfoCircle;
+            this.aboutButton.IconColor = System.Drawing.Color.White;
+            this.aboutButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.aboutButton.IconSize = 38;
+            this.aboutButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.aboutButton.Location = new System.Drawing.Point(9, 400);
+            this.aboutButton.Name = "aboutButton";
+            this.aboutButton.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.aboutButton.Size = new System.Drawing.Size(189, 47);
+            this.aboutButton.TabIndex = 5;
+            this.aboutButton.Text = "About";
+            this.aboutButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.aboutButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.aboutButton.UseVisualStyleBackColor = false;
+            this.aboutButton.Click += new System.EventHandler(this.aboutButton_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,6 +195,7 @@ namespace OpenBypass
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private FontAwesome.Sharp.IconButton aboutButton;
     }
 }
 

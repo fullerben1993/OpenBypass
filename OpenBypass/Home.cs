@@ -17,6 +17,10 @@ namespace OpenBypass
             leftBorderBtn.Size = new Size(7, 47);
             mainPanel.Controls.Add(leftBorderBtn);
         }
+        private void Main_Load(object sender, System.EventArgs e)
+        {
+            MessageBox.Show("This app is 100% free & open source. If you want to contribute to this or join our Discord server, click the About button on the bottom left.");
+        }
         private void OpenChildForm(Form childForm)
         {
             if (currentChildForm != null)
@@ -40,13 +44,6 @@ namespace OpenBypass
             OpenChildForm(new susicivus());
         }
 
-        private void iconButton3_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void iconButton2_Click(object sender, EventArgs e)
-        {
-        }
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
@@ -94,24 +91,17 @@ namespace OpenBypass
             }
         }
 
-        private void Main_Load(object sender, EventArgs e)
+        private void aboutButton_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            if (MessageBox.Show(
+        "Click Yes to get access to our repository, or click No to get access to our Discord", "About" , MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk
+    ) == DialogResult.Yes)
+            {
+                System.Diagnostics.Process.Start("https://bit.ly/32tinEh");
+            }
+            else {
+                System.Diagnostics.Process.Start("https://discord.gg/cUa7WVmx7E");
+            }
         }
     }
 }
