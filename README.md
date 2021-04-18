@@ -9,7 +9,7 @@ An MDM bypass & iOS OTA disabler/eraser application written in C#.
 
 # License
 
-This application (and its source code) is licensed under GPL-3. Any code used in this repository must also be open-sourced & licensed under GPL-3. Furthermore, no warranty is offered & we aren't responsible if you mess up your iOS device or your computer. 
+This application (and its source code) is licensed under GPL-3. Any code used in this repository must also be open-sourced & licensed under GPL-3. Furthermore, no warranty is offered & we aren't responsible if you mess up your iOS device or your computer. Furthermore, if you are a repair shop & charge for this software you are not allowed to do so.
 
 # Issues
 
