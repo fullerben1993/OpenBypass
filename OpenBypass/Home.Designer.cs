@@ -29,6 +29,7 @@ namespace OpenBypass
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.mainPanel = new System.Windows.Forms.Panel();
@@ -140,7 +141,7 @@ namespace OpenBypass
             this.label3.TabIndex = 0;
             this.label3.Text = "Select an option to get started";
             // 
-            // pelagus
+            // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -148,7 +149,8 @@ namespace OpenBypass
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.mainPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "pelagus";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Home";
             this.Text = " ";
             this.Load += new System.EventHandler(this.Main_Load);
             this.mainPanel.ResumeLayout(false);
