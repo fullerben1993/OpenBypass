@@ -1,9 +1,11 @@
 # OpenBypass
 An MDM bypass & iOS OTA disabler/eraser application written in C#.
 
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)    
-<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> 
+
 [![GitHub stars](https://img.shields.io/github/stars/tterb/playmusic.svg?style=social&label=Star)](https://github.com/OpenBypassProject/OpenBypass)
+[![GitHub forks](https://img.shields.io/github/forks/tterb/playmusic.svg?style=social&label=Fork)](https://github.com/OpenBypassProject/OpenBypass)
+
 
 ### Device activation is coming soon, no ETA is currently planned at the moment.
 
@@ -32,3 +34,4 @@ OpenBypass uses a few 3rd party libraries, they are listed below:
 -FontAwesome.Sharp
 
 -LibiMobileDevice
+ 
