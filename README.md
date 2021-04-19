@@ -7,7 +7,7 @@ An MDM bypass & iOS OTA disabler/eraser application written in C#.
 [![GitHub forks](https://img.shields.io/github/forks/tterb/playmusic.svg?style=social&label=Fork)](https://github.com/OpenBypassProject/OpenBypass)
 
 
-### Device activation is coming soon, no ETA is currently planned at the moment.
+### Device activation is coming soon, no ETA is currently planned at the moment. If you fork this & don't make a PR you should star this instead of doing nothing with your fork.
 
 ### For those looking to join our Discord, you can join here: [Discord](https://discord.gg/cUa7WVmx7E)
 
