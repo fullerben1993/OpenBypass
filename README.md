@@ -19,7 +19,7 @@ An MDM bypass & iOS OTA disabler/eraser application written in C#.
 - MDM Bypass
 
 ## Coming Soon
-- Device Acitvation
+- Device Activation
 
 
 # License
