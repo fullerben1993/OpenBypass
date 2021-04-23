@@ -13,6 +13,9 @@ An MDM bypass & iOS OTA disabler/eraser application written in C#.
 
 ## If you are sharing this on a blog or what not, please direct users to this repository instead of a file-sharing service, it helps raise awareness for this project.
 
+# Supported Devices
+- Anything supported by checkra1n is supported.
+
 # Current Features
 - OTA Disabler for iOS 12+
 - Eraser for iOS 12 +
