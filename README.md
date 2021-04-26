@@ -3,15 +3,11 @@ An MDM bypass & iOS OTA disabler/eraser application written in C#.
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> 
 
+
 [![GitHub stars](https://img.shields.io/github/stars/tterb/playmusic.svg?style=social&label=Star)](https://github.com/OpenBypassProject/OpenBypass)
 [![GitHub forks](https://img.shields.io/github/forks/tterb/playmusic.svg?style=social&label=Fork)](https://github.com/OpenBypassProject/OpenBypass)
 
-
-### If you fork this & don't make a PR you should star this instead of doing nothing with your fork.
-
 ### For those looking to join our Discord, you can join here: [Discord](https://discord.gg/cUa7WVmx7E)
-
-## If you are sharing this on a blog or what not, please direct users to this repository instead of a file-sharing service, it helps raise awareness for this project.
 
 # Supported Devices
 - Anything supported by checkra1n is supported.
@@ -23,6 +19,7 @@ An MDM bypass & iOS OTA disabler/eraser application written in C#.
 
 ## Coming Soon
 - Device Activation
+- Passcode Bypass
 
 
 # License
@@ -31,7 +28,7 @@ This application (and its source code) is licensed under GPL-3. Any code used in
 
 # Issues
 
-If you are having issues with this software, feel free to make an issue under the 'Issues' tab with your device model, iOS version, & what was used.
+If you are having issues with this software, feel free to make an issue under the 'Issues' tab with your device model, iOS version, & what was used. For quicker support, we recommend joining our Discord server.
 
 # Contributing
 
